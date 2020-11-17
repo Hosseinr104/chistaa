@@ -1,0 +1,199 @@
+
+@font-face{
+    font-family: vazir;
+    src: url(font/Vazir-FD.ttf);
+}
+
+*{
+    transition: 0.7s;
+    direction: rtl;
+}
+
+
+body{
+    font-family: vazir;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(0,166,251,1) 0%, rgba(0,100,148,1) 33%, rgba(63,11,113,1) 66%, rgba(16,0,43,1) 100%); 
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+.container{
+    height: 4000px;
+
+}
+
+.parttt{
+    width: 100%;
+    height: 760px;
+}
+.header-contents{
+    
+    background: url(header-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+}
+
+/*menu  start*/
+.menulist {
+    display: flex;
+    list-style: none;
+    font-size: 1.2em;
+}
+
+.menulist1{
+    float: right;
+    margin: 50px 70px 0px 0px;
+}
+
+.menulist2{
+    float: left;
+    margin: 50px 0px 0px 70px;
+
+}
+.menulist li a:hover{
+    background-color: white;
+    color: rgb(54, 8, 54);
+    border-radius: 30px;
+
+}
+
+.menulist a{
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    padding: 15px 20px;
+    border-radius: 30px;
+}
+a.diff-menu{
+    color: rgb(54, 8, 54);
+    background-color: white;
+}
+/*menu  stop*/
+
+.down{
+    width: 40px;
+    height: 40px;
+    background: url(down.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -80px auto;
+}
+
+
+/* start logo */
+.logodiv{
+    margin: 10% 25%;
+    display: inline-flex;
+    width: 50%;
+    height: 40%;
+}
+.logo-name p{
+    animation: logos 2s;
+    animation-iteration-count: infinite;
+    transition: 0.8s ease-in;
+}
+.logo{
+    background-image: url(logo.svg);
+    background-attachment:local;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    height: 100%;
+    
+}
+.logo{
+    display: flex;
+}
+
+.logo-name{
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+.logo-name h6{
+    font-size: 3.3em;
+}
+.logo-name p{
+    border-right: 2px white solid;
+    border-left: 2px white solid;
+    font-size: 1.3em;
+    padding: 15px;
+}
+
+@keyframes logos{
+    0%{text-shadow: 0px 0px 7px rgb(255, 255, 255);}
+    50%{text-shadow: 0px 0px 1px rgb(255, 255, 255);}
+    100%{text-shadow: 0px 0px 7px rgb(255, 255, 255);}
+}
+/* end logo */
+
+
+/* start main1 */
+.main1{
+    background: url(main1.svg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    margin-top: 0px;
+    position: relative;
+
+}
+
+.main1-text{
+    margin: 0px 0px 0px 20px;
+    margin: 22% 55% 0px 0px;
+    position: absolute;
+    text-align: center;
+    width: 32%;
+    height: ;
+}
+.main1-h6{
+    font-size: 2em;
+    color: rgb(42, 6, 63);
+
+}
+.main1-a{
+    width: 200px;
+    text-decoration: none;
+    line-height: 5em;
+    background-color: rgb(5, 66, 66);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    animation: main1-a  1.5s;
+    animation-iteration-count: infinite;
+    transition: 1s ease-out;
+}
+@keyframes main1-a{
+    0%{box-shadow: 0px 0px 0px teal;}
+    50%{box-shadow: 0px 0px 16px rgb(5, 78, 78);}
+    100%{box-shadow: 0px 0px 0px teal;}
+}
+
+
+/* end main1 */
+
+
+
+/* start main2 */
+
+/* end main2 */
+
+
+/* start main3 */
+.main3{
+    background: url(main3.svg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+/* end main3 */
+
+
+
+
+
+
+
+
